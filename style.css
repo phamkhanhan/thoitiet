@@ -1,0 +1,62 @@
+* {
+    /* background-color: pink; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* color: #333; */
+    
+}
+
+.thoitiet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    /* background: #333; */
+}
+.thoitiet__container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  #nhietdo{
+     margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+  }
+
+#diadiem {
+    /* background-color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center; */
+
+    padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+#btn {
+    padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #999;
+    color: #ffffff;
+}
+
